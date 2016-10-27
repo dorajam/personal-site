@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="description"
+		content="Professional website - Dora Jambor"/>
+	<title>
+		Dora Jambor
+	</title>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+	<script src="display.js"></script>
+	<link rel="icon"  href="assets/maizy.png">
+</head>
+<body>
+	<table>
+		<tr>
+			<td> 
+				<div class="head">
+					<a class = "icon" style="cursor:pointer" href= "https://twitter.com/dorajambor"><img src=assets/twitter.png width=20 alt="t"></a>
+					<a class = "icon" href= "https://www.linkedin.com/in/dorajambor"><img src=assets/linkedin.png width=16 alt="in"></a>
+					<a class = "icon" href= "https://github.com/dorajam"><img src=assets/github.png width=16 alt="git"></a>	
+					<a class = "icon" href= "mailto:dorajambor@gmail.com"><img src=assets/gmail.png width=16.5 alt="g"></a>
+ 				</div>
+				<div id="name">dora jambor</div>
+				<span id = "home" style="cursor:pointer;" onclick="homeFunc()"><img src=assets/home.svg width=22 alt="H"></span>
+
+ 				<section>
+					<div style="cursor:pointer" class="menu" onclick="dropFunc1()">
+						<span>ABOUT</span>
+ 						</div>
+					</div>
+
+					<div style="cursor:pointer" class="menu">  
+						<a href="portfolio/index.html" style="color:rgb(102, 102, 102);">PORTFOLIO</a>
+					</div>
+
+					<div style="cursor:pointer" class="menu">
+						<a href="http://medium.com/@dorajambor" style="color:rgb(102, 102, 102);">THOUGHTS</a>
+					</div>
+				</section>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="main" style="height: 82vh; width:90vw">
+					<div id="image" ></div>
+					<div id="about" style="margin: 35px 20px 0 20px">
+                    <p style="text-align:left; width:55%; float:left;">I do machine learning.<br>
+                    <br>
+                    I&#39;m also a proud graduate of the <a href="http://www.recurse.com" id="introlink"><i>Recurse Center</i></a> and a data scientist at <a href="http://www.shopify.com" id="introlink"><i>Shopify</i></a>. <br>
+                    <br>
+                    I am interested in human-computer interaction, in particular when artificial intelligence is involved. Some of my previous work has focused on computer vision (object detection, image classification), speech and music information retrieval as well as reinforcement learning problems. Currently, I am looking to collaborate on ideas that introduce real-time human interaction in teaching a system some complex behaviour.<br>
+                    <br>
+                    Previously, I completed a BSc in Economics from the University of Amsterdam and a minor in Computer Science from Harvard.<br>
+                    <br>
+                    Besides research and coding, I get quite excited about travelling, deep sea diving and music.</p>
+                    <p><img src="assets/me.jpg" style="float:right;width:350px;display:flex;"></p>
+					</div>
+					<p class="post-image-caption">Arab Street, Singapore 2015</p>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<footer class = "post-footer"></footer>
+	<p id"signiture" style="color:rgb(102, 102, 102); font-size:12px; font-style:italic; padding-bottom:10px;">Handcrafted in New York City, design &amp; code by <br>Dora Jambor</p>
+	
+</body>
+<html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="description"
+		content="Professional website - Dora Jambor"/>
+	<title>
+		Dora Jambor
+	</title>
+	<link rel="stylesheet" type="text/css" href="../static/style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+	<script src="../display.js"></script>
+	<link rel="icon"  href="../assets/maizy.png">
+</head>
+<body>
+	<table>
+		<tr>
+			<td> 
+				<div class="head">
+					<a class = "icon" style="cursor:pointer" href= "https://twitter.com/dorajambor"><img src=../assets/twitter.png width=20 alt="t"></a>
+					<a class = "icon" href= "https://www.linkedin.com/in/dorajambor"><img src=../assets/linkedin.png width=16 alt="in"></a>
+					<a class = "icon" href= "https://github.com/dorajam"><img src=../assets/github.png width=16 alt="git"></a>	
+					<a class = "icon" href= "mailto:dorajambor@gmail.com"><img src=../assets/gmail.png width=16.5 alt="g"></a>
+ 				</div>
+				<div id="name">dora jambor</div>
+				<a id = "home" href="../index.html" style="cursor:pointer;" onclick="homeFunc()"><img src=../assets/home.svg width=22 alt="H"></a>
+
+ 				<section>
+					<div style="cursor:pointer" class="menu" onclick="dropFunc1()">
+						<a href="../index.html" style="color:rgb(102, 102, 102);">ABOUT</a>
+ 						</div>
+					</div>
+
+					<div style="cursor:pointer" class="menu">  
+						<a href="../portfolio/index.html" style="color:rgb(102, 102, 102);">PORTFOLIO</a>
+					</div>
+
+					<div style="cursor:pointer" class="menu">
+						<a href="http://medium.com/@dorajambor" style="color:rgb(102, 102, 102);">THOUGHTS</a>
+					</div>
+				</section>
+			</td>
+		</tr>
+    </table>
+
+    <div style="width:1008px;">
+    <table>
+    <p id="portfolio-title">2016</p>
+    <hr>
+
+   		<tr>
+   			<td>
+   				<div class="stuff">
+   				<a href="http://github.com/dorajam/im2speech"><img src = "../assets/waves.jpg"/>
+					<div class ="title" width=100% height=100%>speech synthesis from images</div>
+   			</td>
+   			<td>
+   				<div class="stuff">
+   				<a href="http://github.com/dorajam/gridworld_RL"><img src = "../assets/grid.gif" width = 100%/>
+				<div class ="title-black" width=100% height=100%>decision-making<br>with reinforcement learning</div>
+				<a>
+   				</div>
+   			</td>
+   			<td>
+   				<div class="stuff" >
+   				<a href="http://github.com/dorajam/Convolutional-Network"><img src="../assets/neurons.png">
+					<div class ="title" width=100% height=100%>a convolutional neuron network<br>from scratch</div>
+				<a>
+   				</div>
+   			</td>
+   		</tr>
+   		<tr>
+   			<td>
+   				<div class="stuff">
+   				<a href="http://github.com/dorajam/MNIST-web-sketch"><img src = "../assets/mnist.gif">
+					<div class ="title-black" width=100% height=100%>interaction with a multilayer-perceptron</div>
+   			</td>
+   			<td>
+   				<div class="stuff">
+   				<a href="http://github.com/dorajam/Voice-detection"><img src = "../assets/yellow.png">
+				<div class ="title" width=100% height=100%>voice recognition<br></div>
+				<a>
+   				</div>
+   			</td>
+   			<td>
+   				<div class="stuff">
+   				<a href="https://github.com/cowpig/chess_nn"><img src = "../assets/chess.jpg" width = 100%>
+				<div class ="title-black" width=100% height=100%>chessAI</div>
+				<a>
+   				</div>
+   			</td>
+   		</tr>	
+   		<tr>
+   			<td>
+   				<div class="stuff">
+   				<a href="http://github.com/dorajam/WebAudio"><img src = "../assets/d3balls.gif">
+					<div class ="title-black" width=100% height=100%>audio signal visualziation<br> in D3</div>
+   			</td>
+   			<td>
+   				<div class="stuff">
+   				<a href="https://github.com/dorajam/dorajam.github.io"><img src = "../assets/IMG_4935.jpg" width = 100%/>
+
+					<div class ="title" width=100% height=100%>personal website <br>& portfolio</div>
+   			</td>
+   			<td>
+   				<div class="stuff">
+   				<a href="https://github.com/dorajam/OpenCV-object-recognition"><img src ="../assets/redball.gif" width = 100%/>
+
+					<div class ="title" width=100% height=100%>object detection <br> with OpenCV</div>
+   			</td>
+   		</tr>	
+	</table>
+    </div>
+
+<footer class = "post-footer"></footer>
+<p id"signiture" style="color:rgb(102, 102, 102); font-size:12px; font-style:italic; padding-bottom:10px;">Handcrafted in New York City, design &amp; code by <br>Dora Jambor</p>
+
+</body>
+</html>
